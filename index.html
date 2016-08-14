@@ -6,10 +6,10 @@
 </head>
 <body>
   <!-- Page requirements:
-  [] Basic HTML structure elements
+  [x] Basic HTML structure elements
   [] Some content that mixes header and paragraph tags
   [] At least one image
-  [] At least 2 block-level elements that give semantic meaning to content
+  [x] At least 2 block-level elements that give semantic meaning to content
   [] A table or form (submit to httpbin or another page)
   [] A list (ordered or unordered)
   [] At least on additional page that's linked from index.
@@ -18,7 +18,19 @@
     <nav></nav>
   </header>
   <aside>
-    <section id="author-bio"></section>
+    <section id="author-bio">
+      <h2>About the Admirer</h2>
+      <p>Derrick is a writer and technologist who loves to think about public opinion and the people who influence it. He grew up in highly competitive sporting environments, and watching the 90s-era Bulls.</p>
+      <p> A few of his favorite other favorite activities and considerations are:</p>
+      <ul>
+        <li>Video games and comics as a means of analyzing speculative fiction</li>
+        <li>Poetry &amp; Performance</li>
+        <li>The position of hip-hop in an ever-changing America</li>
+        <li>Perspective and the relativity of experience</li>
+      </ul>
+    </section>
+    <form action="http://httpbin.org/post" method="post" name="athlete">
+    </form>
   </aside>
   <main>
     <h1></h1>
