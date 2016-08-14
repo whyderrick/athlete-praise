@@ -7,19 +7,27 @@
 <body>
   <!-- Page requirements:
   [x] Basic HTML structure elements
-  [] Some content that mixes header and paragraph tags
+  [x] Some content that mixes header and paragraph tags
   [] At least one image
   [x] At least 2 block-level elements that give semantic meaning to content
   [] A table or form (submit to httpbin or another page)
-  [] A list (ordered or unordered)
-  [] At least on additional page that's linked from index.
+  [x] A list (ordered or unordered)
+  [x] At least on additional page that's linked from index.
   -->
   <header>
-    <nav></nav>
+    <h1>Athlete Praise</h1>
+    <nav>
+      <img src="http://placehold.it/50x50" alt="Logo">
+      <ul>
+        <li><a href="http://mettaworldpeace.com/">Metta&rsquo;s Website</a></li>
+        <li><a href="https://www.beastmodeonline.com/">Marshawn&rsquo;s Website</a></li>
+        <li><a href="contact.html">Contact me</a></li>
+      </ul>
+    </nav>
   </header>
   <aside>
     <section id="author-bio">
-      <h2>About the Admirer</h2>
+      <h1>About the Admirer</h1>
       <p>Derrick is a writer and technologist who loves to think about public opinion and the people who influence it. He grew up in highly competitive sporting environments, and watching the 90s-era Bulls.</p>
       <p> A few of his favorite other favorite activities and considerations are:</p>
       <ul>
@@ -33,9 +41,26 @@
     </form>
   </aside>
   <main>
-    <h1></h1>
-    <section id="ron-artest"></section>
-    <section id="marshawn-lynch"></section>
+    <section id="ron-artest">
+      <h1>Metta World Peace</h1>
+      <div class="subhead">(formerly known as Ron Artest</div>
+      <article><!-- Who's Ron Ron-->
+        <h1>Who&rsquo;s Metta World Peace</h1>
+      </article>
+      <article><!-- What's he done-->
+        <h1>Why Should I Love Him?</h1>
+      </article>
+    </section>
+    <section id="marshawn-lynch">
+      <h1>Marshawn Lynch</h1>
+      <div class="subhead">(also known as Beast Mode)</div>
+      <article><!-- Who's Marshawn-->
+        <h1>Who&rsquo;s Marshawn?</h1>
+      </article>
+      <article><!-- What's he done-->
+        <h1>Why Should I Love Him?</h1>
+      </article>
+    </section>
   </main>
   <footer></footer>
 </body>
