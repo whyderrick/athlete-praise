@@ -109,7 +109,7 @@ main {
 
 .subhead {
   font: 100 1.25em/1.4 'Patrick Hand', cursive;
-  margin-top: -10px;
+  margin: -10px 0 30px;
 }
 
 section > h1 {
@@ -117,12 +117,39 @@ section > h1 {
   margin-bottom: 10px;
 }
 
+article > h1 {
+  font-size: 1.5em;
+}
+
 img {
   display: block;
   width: 50%;
   margin: 0 auto;
 }
+figcaption {
+  display: block;
+  margin: 10px auto;
+  width: 50%;
+}
 
+figure {
+  margin: 0 auto;
+  text-align: center;
+}
+
+#seasons {
+  font-weight: 600;
+}
+
+table,th, td {
+  border: 3px #2C587D solid;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+table {
+  margin: 20px auto;
+}
 footer {
   clear: both;
   margin: 50px 0;
