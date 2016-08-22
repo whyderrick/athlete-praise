@@ -1,14 +1,46 @@
+* {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
 body {
   margin: 20px auto;
   width: 1200px;
-       box-sizing: border-box;
-  -moz-box-sizing: border-box;
 }
+
 /*
 ############################
 ### HEADER STYLING       ###
 ############################
 */
+nav ul {
+  clear: both;
+  display: block;
+  margin-top: 100px;
+  width: 67%;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-margin-start: 0;
+  -webkit-margin-end: 0;
+  -webkit-padding-start: 0;
+}
+nav li {
+  display: inline-block;
+  list-style: none;
+  width: 33%;
+  padding: 20px 0;
+}
+
+header h1 {
+  display: inline-block;
+  float: left;
+}
+
+header img {
+  display: inline-block;
+  float: left;
+  margin: 0 5% 0 15%;
+}
 
 
 
