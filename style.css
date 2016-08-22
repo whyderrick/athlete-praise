@@ -9,11 +9,12 @@ body {
 }
 
 #container {
+  margin: 0 5%;
   width: 100%;
 }
 
-section {
-  padding-left: 5%;
+section, header, footer {
+  padding: 0 5%;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -44,24 +45,27 @@ nav li {
 
 header h1 {
   display: inline-block;
-  float: left;
-  font-size: 3em;
+  position: relative;
+  font-size: 4em;
+  margin: 0 5%;
   text-transform: uppercase;
   vertical-align: middle;
 }
 
 header img {
   display: inline-block;
-  float: left;
+  position: relative;
+  margin: 20px auto;
   width: 10%;
   height: 10%;
-  margin: 10px 3% 0 33%;
+  vertical-align: middle;
 }
 
 header {
   background-color: #ddd;
   margin: 0 auto;
   font-family: 'Patrick Hand', cursive;
+  text-align: center;
   width: 100%;
 }
 
@@ -93,7 +97,7 @@ aside {
 
 #author-bio {
   line-height: 1.6em;
-  margin: 100px 0 150px;
+  padding: 100px 2% 150px;
 }
 
 #author-bio h1 {
@@ -161,8 +165,29 @@ footer {
   width: 100%;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 731px) {
+  main, aside, section {
+    margin-top: 0;
+  }
+  header li {
+    margin: 0 auto;
+    width: 100%;
+    display: block;
+  }
   main {
-    background-color: green;
+    display: block;
+    float: none;
+    font-size: 1.2rem;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+  }
+  aside {
+    display: none;
+    float: none;
+    width: 100%;
+  }
+  img {
+    width: 100%;
   }
 }
