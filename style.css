@@ -5,7 +5,11 @@
 }
 body {
   margin: 20px auto;
-  width: 1200px;
+  max-width: 1200px;
+}
+
+#container {
+  width: 100%;
 }
 
 section {
@@ -150,8 +154,15 @@ table,th, td {
 table {
   margin: 20px auto;
 }
+
 footer {
   clear: both;
   margin: 50px 0;
   width: 100%;
+}
+
+@media screen and (max-width: 480px) {
+  main {
+    background-color: green;
+  }
 }
