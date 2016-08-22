@@ -1,0 +1,49 @@
+body {
+  margin: 20px auto;
+  width: 1200px;
+       box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+/*
+############################
+### HEADER STYLING       ###
+############################
+*/
+
+
+
+/*
+############################
+### ASIDE STYLING        ###
+############################
+*/
+
+aside {
+  display: inline-block;
+  float: right;
+  margin: 0;
+  padding-left: 2.5%;
+  vertical-align: top;
+  width: 30%;
+}
+
+
+/*
+############################
+### MAIN STYLING         ###
+############################
+*/
+main {
+  display: inline-block;
+  float: left;
+  width:67%;
+}
+
+img {
+  max-width: 50%;
+  margin: 0 auto;
+}
+
+footer {
+  clear: both;
+}
