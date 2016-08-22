@@ -92,6 +92,10 @@ aside {
   margin: 100px 0 150px;
 }
 
+#author-bio h1 {
+  font-size: 2em;
+}
+
 /*
 ############################
 ### MAIN STYLING         ###
@@ -103,12 +107,19 @@ main {
   width:67%;
 }
 
-main section {
-  width: 67%;
+.subhead {
+  font: 100 1.25em/1.4 'Patrick Hand', cursive;
+  margin-top: -10px;
+}
+
+section > h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
 }
 
 img {
-  max-width: 50%;
+  display: block;
+  width: 50%;
   margin: 0 auto;
 }
 
