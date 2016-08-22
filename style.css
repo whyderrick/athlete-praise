@@ -8,6 +8,14 @@ body {
   width: 1200px;
 }
 
+section {
+  padding-left: 5%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Patrick Hand', cursive;
+  text-transform: uppercase;
+}
 /*
 ############################
 ### HEADER STYLING       ###
@@ -26,13 +34,16 @@ nav li {
   display: inline-block;
   list-style: none;
   width: 33%;
-  padding: 20px 0;
-  margin: 0 auto;
+  padding: 20px 10%;
+  font-size: 1.25em
 }
 
 header h1 {
   display: inline-block;
   float: left;
+  font-size: 3em;
+  text-transform: uppercase;
+  vertical-align: middle;
 }
 
 header img {
@@ -40,14 +51,26 @@ header img {
   float: left;
   width: 10%;
   height: 10%;
-  margin: 10px 5% 0 15%;
+  margin: 10px 3% 0 33%;
 }
 
 header {
   background-color: #ddd;
   margin: 0 auto;
+  font-family: 'Patrick Hand', cursive;
+  width: 100%;
 }
 
+header a {
+  text-decoration: none;
+}
+
+header a:visited {
+  color: #111;
+}
+header a:hover {
+  color: green;
+}
 /*
 ############################
 ### ASIDE STYLING        ###
@@ -55,14 +78,19 @@ header {
 */
 
 aside {
+  background-color: #0282F9;
+  color: #fff;
   display: inline-block;
   float: right;
-  margin: 0;
-  padding-left: 2.5%;
-  vertical-align: top;
+  vertical-align: middle;
   width: 30%;
+  clear: left;
 }
 
+#author-bio {
+  line-height: 1.6em;
+  margin: 100px 0 150px;
+}
 
 /*
 ############################
@@ -71,8 +99,12 @@ aside {
 */
 main {
   display: inline-block;
-  float: left;
+  margin: 0 auto;
   width:67%;
+}
+
+main section {
+  width: 67%;
 }
 
 img {
@@ -82,4 +114,6 @@ img {
 
 footer {
   clear: both;
+  margin: 50px 0;
+  width: 100%;
 }
